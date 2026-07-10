@@ -1,13 +1,14 @@
 using System;
 
 Console.WriteLine("hello everyone");
+GreetWhite(); // Вызываем
+GreetBlack(); // Вызываем
 
 void GreetWhite() 
 {
     Console.WriteLine("hello white");
 }
 
-// Добавляем функцию Блэка
 void GreetBlack() 
 {
     Console.WriteLine("hello black");
