@@ -1,9 +1,15 @@
 using System;
 
-Console.WriteLine("hello");
+Console.WriteLine("hello everyone");
+GreetWhite(); // Вызываем
+GreetBlack(); // Вызываем
 
-void GreetWhite()
+void GreetWhite() 
 {
-	Console.WriteLine("hello white");
+    Console.WriteLine("hello white");
 }
-Console.WriteLine("hello everyone"); 
+
+void GreetBlack() 
+{
+    Console.WriteLine("hello black");
+}
